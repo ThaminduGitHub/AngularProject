@@ -1,0 +1,383 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .left {
+    flex: 0 0 30%;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    flex: 0 0 70%;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: white;
+  }
+  @media only screen and (max-width: 768px) {
+  
+    .left, .right{
+      flex: 1 0 100%;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .left {
+      flex: 0 0 45%;
+    }
+  
+    .right {
+      flex: 0 0 55%;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .left {
+      flex: 0 0 30%;
+    }
+  
+    .right {
+      flex: 0 0 70%;
+    }
+  }
+  
+  /* ////////////////////////////////////////////////////////////////////////////// */
+  
+  .img1{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top:20% ;
+  }
+  
+  .left h2 {
+    font-size: 50px;
+    color: #00aaff;
+    text-align: center;
+  }
+  
+  .left p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .image-section p {
+    flex: 2;
+    background-size: cover;
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  
+  .text-section {
+    margin: 0 auto;
+    max-width: 750px;
+  }
+  
+  .text-section p {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .text-section .introquote {
+    font-size: 23px;
+    letter-spacing: -.2px;
+  }
+  
+  .introquote {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+  }
+  
+  .intro-head {
+    height: auto;
+    width: 100%;
+  }
+  
+  .therichest-edited {
+    text-align: center;
+    font-size: 55px;
+  }
+  
+  .text-section .introDescription {
+    font-size: 23px;
+  }
+  
+  .blueDot {
+    width: 10px;
+    height: 10px;
+    background-color: #00aaff;
+    border-radius: 50%;
+    margin: 20px auto;
+    padding: 5px;
+  }
+  
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .whiteDot svg {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .social-icons a .whiteDot svg:hover {
+    background-color: #59c1f1;
+  }
+  
+  .deco {
+    text-decoration: none;
+  }
+  
+  .downArrow {
+    color: #59c1f1;
+    margin: 32px auto 0;
+    width: 65px;
+    scale: 3;
+  }
+  
+  .dropcap {
+    float: left;
+    font-size: 8em;
+    line-height: 0.8em;
+    margin-right: 0.1em;
+    color: #00BFFF;
+  }
+  /* /////////////////////////////////////////////////////////////////// */
+  
+  .richest{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .tebKeys {
+    display: flex;
+    gap: 5px 10px;
+    position: relative;
+  }
+  
+  
+  .key {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    display: block;
+    position: relative;
+    width: 12px;
+  }
+  
+  .icon img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  /* //////////////////////////////////////////////////////////// */
+  
+  .tablePart {
+    display: flex;
+  }
+  
+  .tableHead {
+    display: flex;
+  }
+  
+  .right {
+    flex: 1;
+  }
+  
+  .list-container {
+  
+    cursor: pointer;
+  }
+  
+  .header-container {
+    flex-wrap: wrap;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerName {
+  
+    font-weight: bold;
+    font-size: 12px;
+    height: 25px;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+  }
+  
+  .rank, .header .rank {
+    width: 100px;
+  }
+  
+  .name, .header .name {
+    width: 150px;
+  }
+  
+  .net-worth, .header .net-worth {
+    width: 100px;
+  }
+  
+  .age, .header .age {
+    width: 100px;
+  }
+  
+  .country, .header .country {
+    width: 100px;
+  }
+  
+  .source, .header .source {
+    width: 100px;
+  }
+  
+  .industry, .header .industry {
+    width: 100px;
+  }
+  
+  .person {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .person:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .up {
+    color: rgb(0, 183, 255);
+  }
+  .details .personImage .pDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .pDetails p{
+    font: 16px / 1.38 EuclidCircularB, arial, helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+    position: relative;
+  
+  }
+  .details .personImage .pDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 18px 16px 20px;
+  }
+  
+  
+  .details .personImage{
+    display: flex;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+  .butto{
+    display: flex;
+  }
+  .details .chart img{
+    max-width: 150px;
+    padding:  30px;
+  }
+  .details img {
+    max-width: 150px;
+    padding: 0 30px;
+  }
+  
+  .details {
+    display: flex;
+    background-color: rgba(220, 234, 234, 0.75);
+  }
+  
+  .details button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color:  #06bffc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .details button:hover{
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #0b3dbb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .chart {
+    margin-top: 10px;
+    position: relative;
+    border-left: 3px solid #ddd;
+  }
+  
+  .imgRatio {
+    height: 0;
+  
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .imgRatio img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .left .deco {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .read {
+    color: #06bffc;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .readIcon {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+    width: 12px;
+  }
